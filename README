@@ -1,0 +1,55 @@
+# Week 6 Assignment: SQL Joins and Relationships
+
+**Student Name:** Angich  
+**Course:** PLP Software Engineering Training  
+**Topic:** SQL Joins and Relationships  
+**Database:** Classic Models
+
+## Project Description
+
+This project demonstrates how to use SQL JOIN statements to retrieve related information from the Classic Models database.
+
+## Assignment Tasks
+
+### 1. INNER JOIN – Employees and Offices
+Combines the employees and offices tables using the officeCode column to retrieve employee details and office locations.
+
+### 2. LEFT JOIN – Products and ProductLines
+Combines the products and productlines tables using the productLine column to retrieve product information and product line descriptions.
+
+### 3. RIGHT JOIN – Customers and Orders
+Combines the customers and orders tables using the customerNumber column to retrieve customer and order information. The query uses LIMIT 10 to display the first ten orders.
+
+## Project Files
+
+- `answer.sql` – Contains the three SQL JOIN queries.
+- `README.md` – Contains project documentation and assignment explanations.
+
+## Technologies Used
+
+- MySQL
+- SQL
+- GitHub Codespaces
+- GitHub
+
+## How to Run
+
+1. Open the project in VS Code Codespaces.
+2. Connect to the Classic Models MySQL database.
+3. Open `answer.sql`.
+4. Execute the SQL statements.
+5. Review the query results.
+
+## Learning Outcomes
+
+- Understanding INNER JOIN.
+- Understanding LEFT JOIN.
+- Understanding RIGHT JOIN.
+- Connecting related database tables.
+- Retrieving information using SQL queries.
+
+## Conclusion
+
+This assignment demonstrates practical knowledge of SQL joins and relationships using the Classic Models database.
+
+
