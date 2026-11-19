@@ -1,6 +1,6 @@
 # Week 6 Assignment: SQL Joins and Relationships
 
-**Student Name:** Angich  
+**Student Name:** Margaret  
 **Course:** PLP Software Engineering Training  
 **Topic:** SQL Joins and Relationships  
 **Database:** Classic Models
@@ -51,5 +51,3 @@ Combines the customers and orders tables using the customerNumber column to retr
 ## Conclusion
 
 This assignment demonstrates practical knowledge of SQL joins and relationships using the Classic Models database.
-
-
