@@ -26,8 +26,8 @@ INNER JOIN offices AS o
 SELECT
     p.productCode,
     p.productName,
-    p.productLine,
-    pl.textDescription
+    p.productVendor,
+    p.productLine
 FROM products AS p
 LEFT JOIN productlines AS pl
     ON p.productLine = pl.productLine;
@@ -42,6 +42,8 @@ SELECT
     c.customerName,
     o.orderNumber,
     o.orderDate,
+    o.requiredDate,
+    o.shippedDate,
     o.status
 FROM customers AS c
 RIGHT JOIN orders AS o
